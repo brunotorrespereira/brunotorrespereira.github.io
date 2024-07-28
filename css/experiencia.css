@@ -71,6 +71,18 @@
   background: #ffffff;
   padding: 5px 10px;
 }
+.github-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.github-link i {
+  margin-right: 8px;
+}
 @media (max-width: 800px) {
   .experiencia {
     grid-template-columns: 1fr;
